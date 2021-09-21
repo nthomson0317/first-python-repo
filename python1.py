@@ -115,3 +115,7 @@ dix = {'k1': 100, 'k2': 200, 'k3': 300}
 dix['k4'] = 400
 
 print(dix)
+
+print(dix.keys)
+print(dix.values)
+print(dix.items())
