@@ -104,3 +104,8 @@ print(d['k2'])
 
 print(d['k3'])
 print(d['k3']['insideKey'])
+
+dic = {'key1': ['a','b','c']}
+print(dic['key1'][2])
+dic['key1'][2] = dic['key1'][2].upper()
+print(dic)
