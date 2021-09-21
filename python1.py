@@ -41,3 +41,7 @@ my_list = [1,2,3]
 my_list_2 = ['STRING', 100, 23.2]
 
 print(len(my_list))
+
+print(my_list[0])
+
+print(my_list_2[1:])
