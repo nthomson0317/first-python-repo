@@ -45,3 +45,7 @@ print(len(my_list))
 print(my_list[0])
 
 print(my_list_2[1:])
+
+list_3 = my_list + my_list_2
+
+print(list_3)
