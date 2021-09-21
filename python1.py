@@ -80,4 +80,11 @@ num_list = [4,1,3,8,2]
 
 new_list.sort()
 print(new_list)
+my_sorted_list = new_list
+## sort happens in place, so can't assign my_sorted_list to return value of new_list.sort() b/c that return value is None
+
+##reverse
+
+num_list.reverse()
+print(num_list)
 
