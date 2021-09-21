@@ -32,3 +32,12 @@ name2 = "nicholas"
 age = 31
 
 print(f'{name2} is {age} years old')
+
+
+####### Lists
+
+my_list = [1,2,3]
+
+my_list_2 = ['STRING', 100, 23.2]
+
+print(len(my_list))
