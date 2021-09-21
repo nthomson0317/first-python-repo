@@ -53,3 +53,7 @@ print(list_3)
 list_3[0] = 'ONE ALL CAPS'
 
 print(list_3)
+
+##append adds item to end of list
+list_3.append('six')
+print(list_3)
