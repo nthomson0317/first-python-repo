@@ -71,3 +71,13 @@ print(popped_item)
 popped_index = list_3.pop(2)
 print(popped_index)
 print(list_3)
+
+
+## sort
+
+new_list = ['a', 'e', 'x', 'c', 'g']
+num_list = [4,1,3,8,2]
+
+new_list.sort()
+print(new_list)
+
