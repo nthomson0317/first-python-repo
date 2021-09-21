@@ -109,3 +109,9 @@ dic = {'key1': ['a','b','c']}
 print(dic['key1'][2])
 dic['key1'][2] = dic['key1'][2].upper()
 print(dic)
+
+dix = {'k1': 100, 'k2': 200, 'k3': 300}
+
+dix['k4'] = 400
+
+print(dix)
