@@ -57,3 +57,9 @@ print(list_3)
 ##append adds item to end of list
 list_3.append('six')
 print(list_3)
+
+##pop removes item from end of list
+
+list_3.pop()
+
+print(list_3)
