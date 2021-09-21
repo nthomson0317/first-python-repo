@@ -49,3 +49,7 @@ print(my_list_2[1:])
 list_3 = my_list + my_list_2
 
 print(list_3)
+
+list_3[0] = 'ONE ALL CAPS'
+
+print(list_3)
