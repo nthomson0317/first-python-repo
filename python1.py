@@ -63,3 +63,7 @@ print(list_3)
 list_3.pop()
 
 print(list_3)
+
+popped_item = list_3.pop()
+
+print(popped_item)
