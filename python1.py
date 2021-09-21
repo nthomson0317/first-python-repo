@@ -67,3 +67,7 @@ print(list_3)
 popped_item = list_3.pop()
 
 print(popped_item)
+
+popped_index = list_3.pop(2)
+print(popped_index)
+print(list_3)
