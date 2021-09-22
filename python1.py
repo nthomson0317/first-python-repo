@@ -160,3 +160,9 @@ print(s)
 mylist = [1,1,1,1,1,1,2,2,2,2,2,2]
 setlist = set(mylist)
 print(setlist)
+
+## Booleans
+
+True
+False
+b = None
