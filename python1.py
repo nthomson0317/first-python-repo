@@ -155,3 +155,8 @@ print(s)
 
 s.add(2)
 print(s)
+## still just {1,2} won't duplicate values, 
+
+mylist = [1,1,1,1,1,1,2,2,2,2,2,2]
+setlist = set(mylist)
+print(setlist)
