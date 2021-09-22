@@ -166,3 +166,5 @@ print(setlist)
 True
 False
 b = None
+
+myfile = open('myfile.txt')
