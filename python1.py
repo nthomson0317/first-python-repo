@@ -135,3 +135,23 @@ t = ('one', 2)
 print(t[0])
 print(t[-1])
 #[-1] indexes last item of the list
+
+t = ('a', 'a', 'a')
+count = t.count('a')
+index = t.index('a')
+
+print(count)
+print(index)
+
+
+## Sets (unordered collections of unique elements)
+
+s = set()
+s.add(1)
+print(s)
+
+s.add(2)
+print(s)
+
+s.add(2)
+print(s)
