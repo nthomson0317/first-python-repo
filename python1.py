@@ -119,3 +119,19 @@ print(dix)
 print(dix.keys)
 print(dix.values)
 print(dix.items())
+
+
+## Tuples (immutable lists)
+## tuples use parenthesis: (1,2,3)
+
+t = (1,2,3)
+mylist = [1,2,3]
+
+type(t)
+type(mylist)
+
+t = ('one', 2)
+
+print(t[0])
+print(t[-1])
+#[-1] indexes last item of the list
