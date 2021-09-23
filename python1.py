@@ -179,3 +179,6 @@ s = 'hello'
 
 d = {'simple_key':'hello'}
 print(d['simple_key'])
+
+d = {'k1':{'k2':'hello'}}
+print(d['k1']['k2'])
