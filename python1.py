@@ -169,9 +169,13 @@ True
 False
 b = None
 
-myfile = open('myfile.txt')
+
 
 
 
 s = 'hello'
 
+## test
+
+d = {'simple_key':'hello'}
+print(d['simple_key'])
