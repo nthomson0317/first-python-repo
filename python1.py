@@ -1,6 +1,9 @@
 msg = ('hello world')
 print(msg)
 
+## reverse a string
+print(msg[::-1])
+
 print(20 % 2)
 
 print(2 ** 3)
