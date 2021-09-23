@@ -79,7 +79,9 @@ new_list = ['a', 'e', 'x', 'c', 'g']
 num_list = [4,1,3,8,2]
 
 new_list.sort()
+num_list.sort()
 print(new_list)
+print(num_list)
 my_sorted_list = new_list
 ## sort happens in place, so can't assign my_sorted_list to return value of new_list.sort() b/c that return value is None
 
@@ -168,3 +170,8 @@ False
 b = None
 
 myfile = open('myfile.txt')
+
+
+
+s = 'hello'
+
