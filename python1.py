@@ -237,3 +237,34 @@ print(d['k1'][2]['k2'][1]['tough'][2][0])
 
 not 1 == 1
 #==>False
+
+
+###Control flow syntax
+
+if 3>2:
+    print('ITS TRUE!')
+#==> ITS TRUE!
+
+hungry = True
+
+if hungry:
+    print('FEED ME!')
+#==> FEED ME!
+
+hungry = False
+
+if hungry:
+    print('FEED ME!')
+else: print('Im not hungry')
+#==> Im not hungry
+
+loc = 'Bank'
+
+if loc == 'Auto Shop':
+    print('Cars are cool!')
+elif loc == 'Bank':
+    print('Money is cool!')
+else:
+    print('I do not know much')
+    #==> Money is cool!
+
