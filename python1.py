@@ -213,3 +213,25 @@ print(d['k1'][2]['k2'][1]['tough'][2][0])
 
 2.0 == 2
 #==>True
+
+
+##### Logical operators
+
+1 < 2 < 3
+#==> True
+
+1 < 2 > 3
+#==> False
+
+1 < 2 and 2 > 3
+#==> False
+
+1 < 2 and 2 < 3
+#==> True
+
+'h' == 'h' and 2 == 2
+#==> True
+
+100 == 1 or 2 == 2
+#==> True
+
