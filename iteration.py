@@ -51,3 +51,20 @@ newlist = [(1,2,3),(4,5,6),(7,8,9)]
 for (a,b,c) in newlist:
     print(b)
     #==> 2 6 9
+
+
+##dictionary
+
+d = {'k1': 1, 'k2': 2, 'k3': 3}
+
+for i in d.items():
+    print(i)
+#==>('k1', 1)
+#==>('k2', 2)
+#==>('k3', 3)
+
+for key,value in d.items():
+    print(value)
+    #==> 1
+    #==> 2
+    #==> 3
