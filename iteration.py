@@ -32,6 +32,7 @@ tup = (1,2,3)
 for i in tup:
     print(i)
 
+##tuple iteration
 
 mylist = [(1,2),(3,4),(5,6),(7,9)]
 len(mylist)
@@ -40,6 +41,13 @@ len(mylist)
 for i in mylist:
     print(i)
 
+##tuple unpacking
 for (a,b) in mylist:
     print(a)
     print(b)
+
+newlist = [(1,2,3),(4,5,6),(7,8,9)]
+
+for (a,b,c) in newlist:
+    print(b)
+    #==> 2 6 9
