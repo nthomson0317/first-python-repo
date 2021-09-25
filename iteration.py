@@ -79,3 +79,41 @@ while x < 5:
     x += 1
 else:
     print("X is not less than 5")
+
+
+
+# break, continue, pass
+
+x = [1,2,3]
+
+for i in x:
+    pass
+print('end of my script')
+#==> end of my script
+
+mystring = 'Sammy'
+
+for letter in mystring:
+    if letter == 'a':
+        continue
+    print(letter)
+#==>S
+#==>m
+#==>m
+#==>y
+
+for letter in mystring:
+    if letter == 'a':
+        break
+    print(letter)
+#==>S
+
+x = 0
+
+while x < 5:
+    if x == 2:
+        break
+    print(x)
+    x += x + 1
+#==>0
+#==>1
