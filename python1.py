@@ -270,4 +270,6 @@ else:
 
 ## for loops
 
-
+my_iterable = [1,2,3]
+for i in my_iterable:
+    print(i)
