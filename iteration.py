@@ -31,3 +31,15 @@ tup = (1,2,3)
 
 for i in tup:
     print(i)
+
+
+mylist = [(1,2),(3,4),(5,6),(7,9)]
+len(mylist)
+#==> 4
+
+for i in mylist:
+    print(i)
+
+for (a,b) in mylist:
+    print(a)
+    print(b)
