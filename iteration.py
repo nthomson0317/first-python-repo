@@ -10,3 +10,5 @@ for num in mylist:
 for num in mylist:
     if num % 2 == 0:
         print(num)
+    else:
+        print(f'Odd Number: {num}')
