@@ -20,3 +20,8 @@ for num in mylist:
 
 print(list_sum)
 #==> 55
+
+mystring = 'Hello World'
+
+for letter in mystring:
+    print(letter)
