@@ -268,3 +268,6 @@ else:
     print('I do not know much')
     #==> Money is cool!
 
+## for loops
+
+
