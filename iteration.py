@@ -12,3 +12,11 @@ for num in mylist:
         print(num)
     else:
         print(f'Odd Number: {num}')
+
+list_sum = 0
+
+for num in mylist:
+    list_sum = list_sum + num
+
+print(list_sum)
+#==> 55
