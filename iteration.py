@@ -68,3 +68,12 @@ for key,value in d.items():
     #==> 1
     #==> 2
     #==> 3
+
+
+######### while loops (execute a block of code while some condition remains true)
+
+x = 0
+
+while x < 5:
+    print(f'The current value of x is {x}')
+    x = x + 1
