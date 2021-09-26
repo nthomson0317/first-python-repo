@@ -62,3 +62,24 @@ for item in zip(mylist1, mylist2):
 
 list(zip(mylist1, mylist2))
 #==>[(1, 'a'), (2, 'b'), (3, 'c')]
+
+'x' in [1,2,3]
+#==> False
+
+'x' in ['x','y','z']
+#==> True
+
+'a' in 'a world'
+#==> True
+
+'mykey' in {'mykey': 345}
+#==> True
+
+d = {'mykey':345}
+345 in d.values()
+#==> True
+
+d = {'mykey':345}
+345 in d.keys()
+#==> False
+
