@@ -106,3 +106,22 @@ from random import randint
 
 randint(0,100)
 #==> random integer
+
+#### ACCEPT USER INPUT ####
+
+result = input('Enter a number here: ')
+## 50
+print(result)
+
+##=> 50
+
+type(result)
+#==> string
+
+float(result)
+#==> 50.0
+int(result)
+#==> 50
+
+type(result)
+#==> int
