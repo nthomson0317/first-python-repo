@@ -1,3 +1,5 @@
+#### RANGE ####
+
 mylist = [1,2,3]
 
 for num in range(10):
@@ -15,7 +17,7 @@ for num in range(0,10,2):
 list(range(0,11,2))
 #==>[0, 2, 4, 6, 8, 10]
 
-#### enumerate
+#### ENUMERATE ####
 
 ##v1
 index_count = 0
@@ -43,3 +45,20 @@ for item in enumerate(word):
 #==>(3, 'd')
 #==>(4, 'e')
 #enumerate prints tuples!
+
+
+#### ZIP ####
+
+mylist1 = [1,2,3]
+mylist2 = ['a','b','c']
+
+for item in zip(mylist1, mylist2):
+    print(item)
+#==> (0, 'a')
+#==>(1, 'b')
+#==>(2, 'c')
+#==>(3, 'd')
+#==>(4, 'e')
+
+list(zip(mylist1, mylist2))
+#==>[(1, 'a'), (2, 'b'), (3, 'c')]
