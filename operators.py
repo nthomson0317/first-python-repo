@@ -83,3 +83,9 @@ d = {'mykey':345}
 345 in d.keys()
 #==> False
 
+mylist = [10,20,30,40,100]
+min(mylist)
+#==> 10
+
+max(mylist)
+#==> 100
