@@ -11,4 +11,35 @@ for num in range(3,10):
 for num in range(0,10,2):
     print(num)
     #==> prints 0 2 4 6 8
-    
+
+list(range(0,11,2))
+#==>[0, 2, 4, 6, 8, 10]
+
+#### enumerate
+
+##v1
+index_count = 0
+
+for letter in 'abcde':
+    print('At index {} the letter is {}'.format(index_count, letter))
+    index_count +=1
+##v2
+index_count = 0
+word = 'abcde'
+
+for letter in word:
+    print(word[index_count])
+    index_count +=1
+
+##v3
+
+word = 'abcde'
+
+for item in enumerate(word):
+    print(item)
+#==>(0, 'a')
+#==>(1, 'b')
+#==>(2, 'c')
+#==>(3, 'd')
+#==>(4, 'e')
+#enumerate prints tuples!
