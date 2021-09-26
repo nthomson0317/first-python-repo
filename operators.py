@@ -63,6 +63,8 @@ for item in zip(mylist1, mylist2):
 list(zip(mylist1, mylist2))
 #==>[(1, 'a'), (2, 'b'), (3, 'c')]
 
+#### IN ####
+
 'x' in [1,2,3]
 #==> False
 
@@ -83,9 +85,24 @@ d = {'mykey':345}
 345 in d.keys()
 #==> False
 
+#### MIN MAX ####
 mylist = [10,20,30,40,100]
 min(mylist)
 #==> 10
 
 max(mylist)
 #==> 100
+
+#### RANDOM ####
+
+from random import shuffle
+
+mylist = [1,2,3,4,5,6,7,8,9,10]
+shuffle(mylist)
+print(mylist)
+#==> [1, 9, 10, 7, 2, 8, 4, 6, 5, 3]
+
+from random import randint
+
+randint(0,100)
+#==> random integer
