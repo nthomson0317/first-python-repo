@@ -168,3 +168,15 @@ for temp in celcius:
 results = [x if x%2 == 0 else 'ODD' for x in range(0,11)]
 print(results)
 #==>[0, 'ODD', 2, 'ODD', 4, 'ODD', 6, 'ODD', 8, 'ODD', 10]
+
+mylist = []
+
+for x in [2,4,6]:
+    for y in [100,200,300]:
+        mylist.append(x*y)
+print(mylist)
+#==>[200, 400, 600, 400, 800, 1200, 600, 1200, 1800]
+
+mylist = [x*y for x in [2,4,6] for y in [1,10,1000]]
+print(mylist)
+#==>[2, 20, 2000, 4, 40, 4000, 6, 60, 6000]
