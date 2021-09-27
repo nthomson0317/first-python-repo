@@ -148,3 +148,23 @@ print(mylist)
 
 mylist = [num**2 for num in range(0,11)]
 print(mylist)
+#==>[0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+
+mylist = [x for x in range(0,11) if x%2 == 0]
+print(mylist)
+#==> [0, 2, 4, 6, 8, 10]
+
+celcius = [0,10,20,34.5]
+fahrenheit = [((9/5)* temp + 32) for temp in celcius]
+print(fahrenheit)
+#==>[32.0, 50.0, 68.0, 94.1]
+
+fahrenheight = []
+
+for temp in celcius:
+    fahrenheit.append(( (9/5)* temp + 32))
+#==>[32.0, 50.0, 68.0, 94.1]
+
+results = [x if x%2 == 0 else 'ODD' for x in range(0,11)]
+print(results)
+#==>[0, 'ODD', 2, 'ODD', 4, 'ODD', 6, 'ODD', 8, 'ODD', 10]
