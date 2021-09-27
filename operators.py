@@ -141,3 +141,10 @@ print(mylist)
 
 mylist2 = [x for x in 'word']
 print(mylist2)
+
+mylist = [num for num in range(0,11)]
+print(mylist)
+#==>[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+mylist = [num**2 for num in range(0,11)]
+print(mylist)
