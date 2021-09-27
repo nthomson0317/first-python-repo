@@ -125,3 +125,16 @@ int(result)
 
 type(result)
 #==> int
+
+### list comprehensions
+
+mystring = 'hello'
+mylist = []
+
+for letter in mystring:
+    mylist.append(letter)
+    #=> ['h','e','l','l','o']
+
+mylist = [letter for letter in mystring]
+print(mylist)
+ #=> ['h','e','l','l','o']
