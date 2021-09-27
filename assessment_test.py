@@ -37,3 +37,11 @@ for num in range(0,101):
     elif (num % 5 == 0):
         print('Buzz')
     else: print(num)
+
+#6. Use List Comprehension to create a list of the first letters of every word in the string below:
+
+st = 'Create a list of the first letters of every word in this string'
+spl = st.split(' ')
+
+listcomp = [i[0] for i in spl]
+print(listcomp)
