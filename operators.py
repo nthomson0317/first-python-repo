@@ -138,3 +138,6 @@ for letter in mystring:
 mylist = [letter for letter in mystring]
 print(mylist)
  #=> ['h','e','l','l','o']
+
+mylist2 = [x for x in 'word']
+print(mylist2)
