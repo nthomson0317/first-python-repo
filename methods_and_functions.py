@@ -11,7 +11,7 @@ mylist.pop()
 print(mylist)
 #==> [1,2,3]
 
-help(mylist.insert)
+# help(mylist.insert)
 #==> insert(index, object, /) method of builtins.list instance
     #==> Insert object before index.
 
@@ -23,3 +23,5 @@ def name_of_function():
     Docstring explains function.
     '''
     print("Hello")
+
+name_of_function()
