@@ -78,8 +78,7 @@ def check_even_list(list):
     for i in list:
         if i % 2 == 0:
             return True
-        else:
-            pass
+    return False #on the level of for loop NOT if statement
 
 listone = [1,3,5,17,23,435,223,4]
 
