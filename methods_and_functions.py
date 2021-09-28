@@ -26,8 +26,20 @@ def name_of_function(name):
 
 name_of_function('Jose')
 
+#####
+
 def add_function(num1, num2):
     return num1 + num2
 
 result = add_function(1,2)
 print(result)
+
+####
+
+def say_hello():
+    print('hello')
+    print('how')
+    print('are')
+    print('you?')
+
+say_hello()
