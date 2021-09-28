@@ -18,10 +18,10 @@ print(mylist)
 
 ### Functions
 
-def name_of_function():
+def name_of_function(name):
     '''
     Docstring explains function.
     '''
-    print("Hello")
+    print("Hello" + ', ' + name)
 
-name_of_function()
+name_of_function('Jose')
