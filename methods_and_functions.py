@@ -43,3 +43,8 @@ def say_hello():
     print('you?')
 
 say_hello()
+
+def say_hello(name):
+    print(f'Hello, {name}')
+
+say_hello('Nicholas')
