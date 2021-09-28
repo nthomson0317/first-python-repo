@@ -44,7 +44,24 @@ def say_hello():
 
 say_hello()
 
-def say_hello(name):
+####
+
+def say_hello(name='Default'):
     print(f'Hello, {name}')
 
 say_hello('Nicholas')
+say_hello()
+
+def add_num(num1, num2):
+    return num1 + num2
+
+thirty = add_num(10,20)
+
+print(thirty)
+###
+
+def is_even(num):
+    if num % 2 == 0:
+        return True
+    else: 
+        return False
