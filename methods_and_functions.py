@@ -70,3 +70,17 @@ print(is_even(21))
 
 def even_check(number):
     return number % 2 == 0
+
+####
+# RETURN TRUE IF ANY NUMBER IS EVEN INSIDE A LIST
+
+def check_even_list(list):
+    for i in list:
+        if i % 2 == 0:
+            return True
+        else:
+            pass
+
+listone = [1,3,5,17,23,435,223,4]
+
+print(check_even_list(listone))
