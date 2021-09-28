@@ -65,3 +65,8 @@ def is_even(num):
         return True
     else: 
         return False
+print(is_even(20))
+print(is_even(21))
+
+def even_check(number):
+    return number % 2 == 0
