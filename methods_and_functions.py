@@ -78,8 +78,21 @@ def check_even_list(list):
     for i in list:
         if i % 2 == 0:
             return True
-    return False #on the level of for loop NOT if statement
+    return False #on the indent level of the for loop NOT the if statement
 
 listone = [1,3,5,17,23,435,223,4]
 
 print(check_even_list(listone))
+
+def collect_even_list(list):
+    even_numbers = []
+
+    for i in list:
+        if i % 2 == 0:
+            even_numbers.append(i)
+    return even_numbers
+
+listy = [0,2,5,3,2,424,66,54,222,41,52,34,5,2,1,3]
+
+res = collect_even_list(listy)
+print(res)
