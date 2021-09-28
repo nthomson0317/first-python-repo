@@ -14,3 +14,12 @@ print(mylist)
 help(mylist.insert)
 #==> insert(index, object, /) method of builtins.list instance
     #==> Insert object before index.
+
+
+### Functions
+
+def name_of_function():
+    '''
+    Docstring explains function.
+    '''
+    print("Hello")
