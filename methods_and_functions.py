@@ -96,3 +96,13 @@ listy = [0,2,5,3,2,424,66,54,222,41,52,34,5,2,1,3]
 
 res = collect_even_list(listy)
 print(res)
+
+#### tuple unpacking
+
+stock_prices = [('APPL', 200),('GOOG', 400),('MSFT', 100)]
+
+for item in stock_prices:
+    print(item)
+#==>('APPL', 200)
+#==>('GOOG', 400)
+#==>('MSFT', 100)
