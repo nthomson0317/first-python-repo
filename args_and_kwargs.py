@@ -29,3 +29,18 @@ myfunc(40,60,200,100,300)
 #==> 200
 #==> 100
 #==> 300
+
+################################################################
+################################################################
+
+def myfunc(**kwargs):
+    if 'fruit' in kwargs:
+        print('My fruit of choice is {}'.format(kwargs['fruit']))
+    else:
+        print('I did not find any fruit here')
+
+myfunc(fruit='apple')
+#==>My fruit of choice is apple
+
+myfunc(fruit='apple',veggie='lettuce')
+#==>My fruit of choice is apple
