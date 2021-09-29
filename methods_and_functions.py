@@ -135,3 +135,10 @@ def employee_check(work_hours):
     return(employee_of_month,current_max)
 
 result = employee_check(work_hours)
+print(result)
+#==> ('Cassie', 800)
+name,hours = employee_check(work_hours)
+print(name)
+#==> Cassie
+print(hours)
+#==> 800
