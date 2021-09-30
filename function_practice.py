@@ -1,6 +1,6 @@
 ###########################################
 #WARMUP#
-################################
+###########################################
 
 #WRITE A FUNCTION THAT RETURNS THE LESSER OF TWO GIVEN NUMBERS IF BOTH NUMBERS ARE EVEN, BUT RETURNS THE GREATER IF ONE OR BOTH NUMBERS ARE ODD
 
@@ -44,3 +44,20 @@ def makes_twenty(a,b):
 print(makes_twenty(20,10))
 print(makes_twenty(12,8))
 print(makes_twenty(2,3))
+
+
+###########################################
+#LEVEL 1#
+###########################################
+
+#### WRITE A FUNCTION THAT CAPITALIZES THE FIRST AND FOURTH LETTERS OF A NAME
+
+def old_macdonald(name):
+    new_name = ''
+    for i in name:
+        
+    name[0].upper()
+    name[4].upper()
+    return name
+
+print(old_macdonald('macdonald'))
