@@ -57,16 +57,19 @@ myfunc(10,20,30,fruit='orange',food='eggs',animal='dogs')
 str = 'abc'
 
 def myfunc(str):
-    for i in str:
-        if str.index(i) % 2 != 0:
-            str[str.index(i)].upper()
-            return str
+    res = ''
+    for i in range(len(str)):
+        if i % 2 != 0:
+            res += str[i].upper()
+        else:     
+            res += str[i].lower()
+    return res
 
-res = myfunc(str)
-print(res)
+result = myfunc(str)
+print(result)
 
 
-def print(str):
-    for i in str:
-        print(str.index(i))
-print(str)
+# def print(str):
+#     for i in enumerate(str):
+#         print(str.index(i))
+# print(str)
