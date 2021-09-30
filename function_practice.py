@@ -30,3 +30,17 @@ def animal_crackers(str):
         return False
 print(animal_crackers('Levelheaded Llama'))
 print(animal_crackers('Crazy Kangaroo'))
+
+#GIVEN TWO INTEGERS, RETURN TRUE IF THE SUM OF HTE INTEGERS IS 20 OR IF ONE OF THE INTEGERS IS 20. IF NOT, RETURN FALSE
+
+def makes_twenty(a,b):
+    if (a == 20) or (b == 20):
+        return True
+    elif (a + b == 20):
+        return True
+    else:
+        return False
+
+print(makes_twenty(20,10))
+print(makes_twenty(12,8))
+print(makes_twenty(2,3))
