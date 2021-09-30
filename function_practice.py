@@ -18,3 +18,15 @@ def lesser_of_two_evens(a,b):
 
 print(lesser_of_two_evens(2,4))
 print(lesser_of_two_evens(2,5))
+
+
+#WRITE A FUNCTION THAT TAKES A TWO-WORD STRING AND RETURNS TRUE IF BOTH WORDS BEGIN WITH THE SAME LETTER
+
+def animal_crackers(str):
+    words = str.split(' ')
+    if words[0][0] == words[1][0]:
+        return True
+    else: 
+        return False
+print(animal_crackers('Levelheaded Llama'))
+print(animal_crackers('Crazy Kangaroo'))
