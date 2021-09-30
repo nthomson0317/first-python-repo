@@ -64,3 +64,9 @@ def myfunc(str):
 
 res = myfunc(str)
 print(res)
+
+
+def print(str):
+    for i in str:
+        print(str.index(i))
+print(str)
