@@ -53,11 +53,14 @@ print(makes_twenty(2,3))
 #### WRITE A FUNCTION THAT CAPITALIZES THE FIRST AND FOURTH LETTERS OF A NAME
 
 def old_macdonald(name):
-    new_name = ''
-    for i in name:
-        
-    name[0].upper()
-    name[4].upper()
-    return name
+    new_str = ''
+    for i in range(len(name)):
+        if i == 0:
+            new_str += (name[i].upper())
+        elif i % 3 == 0:
+            new_str += (name[i].upper())
+        else: 
+            new_str += (name[i])
+    return new_str
 
 print(old_macdonald('macdonald'))
