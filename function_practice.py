@@ -57,7 +57,7 @@ def old_macdonald(name):
     for i in range(len(name)):
         if i == 0:
             new_str += (name[i].upper())
-        elif i % 3 == 0:
+        elif i == 3:
             new_str += (name[i].upper())
         else: 
             new_str += (name[i])
