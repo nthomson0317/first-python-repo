@@ -64,3 +64,17 @@ def old_macdonald(name):
     return new_str
 
 print(old_macdonald('macdonald'))
+
+
+#### GIVEN A SENTENCE, RETURN A SENTENCE WITH THE WORDS REVERSED
+
+def master_yoda(sentence):
+    # sentence.split(' ')
+    # new_list = []
+    # for word in sentence:
+    #     new_list.append(word)
+    return sentence.split(' ')
+
+print(master_yoda('I am home'))
+
+print(master_yoda('We are ready'))
