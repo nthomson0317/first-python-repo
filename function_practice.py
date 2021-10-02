@@ -90,3 +90,10 @@ print(almost_there(90))
 print(almost_there(104))
 print(almost_there(150))
 print(almost_there(209))
+
+###########################################
+#LEVEL 2#
+###########################################
+
+####FIND 33: GIVEN A LIST OF INTS, RETURN TRUE IF HTE ARRAY CONTAINS A 3 NEXT TO A 3 SOMEWHERE
+
