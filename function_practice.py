@@ -109,3 +109,14 @@ def has_33(nums):
 print(has_33([1,3,3]))
 print(has_33([1,3,1,3]))
 print(has_33([3,1,3]))
+
+#### PAPER DOLL: GIVEN A STRING, RETURN A STRING WHERE FOR EVERY CHARACTER IN THE ORIGINAL THERE ARE THREE CHARACTERS
+
+def paper_doll(text):
+    new_str = ''
+    for i in text:
+        new_str += (i*3)
+    return new_str
+
+print(paper_doll('Hello'))
+print(paper_doll('Mississippi'))
