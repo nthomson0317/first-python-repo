@@ -77,3 +77,16 @@ def master_yoda(sentence):
 print(master_yoda('I am home'))
 
 print(master_yoda('We are ready'))
+
+### ALMOST THERE: GIVEN AN INTEGER, N, RETURN TRUE IF IN IS WITHIN 10 OF EITHER 100 OR 200
+
+def almost_there(n):
+ if n in range(90, 110) or n in range(190,210):
+     return True
+ else: 
+     return False
+
+print(almost_there(90))
+print(almost_there(104))
+print(almost_there(150))
+print(almost_there(209))
