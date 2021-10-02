@@ -95,13 +95,12 @@ print(almost_there(209))
 #LEVEL 2#
 ###########################################
 
-####FIND 33: GIVEN A LIST OF INTS, RETURN TRUE IF HTE ARRAY CONTAINS A 3 NEXT TO A 3 SOMEWHERE
+####FIND 33: GIVEN A LIST OF INTS, RETURN TRUE IF THE ARRAY CONTAINS A 3 NEXT TO A 3 SOMEWHERE
 
 def has_33(nums):
-    for i in nums:
-        for j in nums:
-            if i == 3 and i == j:
-                return True
+    for i in range(0, len(nums) -1):
+     if nums[i] == 3 and nums[i] == nums[i+1]:
+        return True
     else:
         return False
 
