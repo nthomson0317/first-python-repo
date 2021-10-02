@@ -98,7 +98,7 @@ print(almost_there(209))
 ####FIND 33: GIVEN A LIST OF INTS, RETURN TRUE IF THE ARRAY CONTAINS A 3 NEXT TO A 3 SOMEWHERE
 
 def has_33(nums):
-    for i in range(0, len(nums) -1):
+    for i in range(0, len(nums)-1):
      if nums[i] == 3 and nums[i] == nums[i+1]:
         return True
     else:
