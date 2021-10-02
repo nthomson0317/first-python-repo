@@ -97,3 +97,19 @@ print(almost_there(209))
 
 ####FIND 33: GIVEN A LIST OF INTS, RETURN TRUE IF HTE ARRAY CONTAINS A 3 NEXT TO A 3 SOMEWHERE
 
+def has_33(nums):
+    for i in nums:
+        for j in nums:
+            if i == 3 and i == j:
+                return True
+    else:
+        return False
+
+
+print(has_33([1,3,3]))
+print(has_33([1,3,1,3]))
+print(has_33([3,1,3]))
+
+
+    #             indexes.append(nums.index(i))
+    # return indexes
