@@ -138,10 +138,25 @@ print(blackjack(9,9,11))
 #### SUMMER OF '69: RETURN THE SUM OF THE NUMBERS IN THE ARRAY, EXCEPT IGNORE SECTIONS OF NUMBERS STARTING WITH A 6 AND EXTENDING TO THE NEXT 9(EVERY 6 WILL BE FOLLOWED BY AT LEAST ONE 9). RETURN 0 FOR NO NUMBERS
 
 def summer_69(arr):
-    ## find range between 6 and 9
-    ## remove range from arr
-    ## sum array
-   return sum(arr)
+    sum = 0
+    add = True
+    for n in arr:
+        while add:
+            if n != 6:
+                sum += n
+                break
+            else:
+                add = False
+        while not add:
+            if n != 9:
+                break
+            else:
+                add = True
+                break
+        return sum
+        
+        
+
 
 print(summer_69([1,3,5]))
 print(summer_69([4,5,6,7,8,9]))
