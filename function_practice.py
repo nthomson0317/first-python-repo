@@ -161,3 +161,12 @@ def summer_69(arr):
 print(summer_69([1,3,5]))
 print(summer_69([4,5,6,7,8,9]))
 print(summer_69([2,1,6,9,11]))
+
+#### SPY GAME: WRITE A FUNCTION THAT TAKES IN A LIST OF INTEGERS AND RETURNS TRUE IF IT CONTAINS 007 IN ORDER
+
+def spy_game(nums):
+    pass
+
+print(spy_game([1,2,4,0,0,7,5]))
+print(spy_game([1,0,2,4,0,5,7]))
+print(spy_game([1,7,2,0,4,5,0]))
