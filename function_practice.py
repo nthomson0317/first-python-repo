@@ -195,7 +195,16 @@ print(spy_game_2([1,8,9,0,0,2,0,4,5,0]))
 
 #### COUNT PRIMES: Write a function that returns the number of prime numbers that exist up to and including a given number
 
-def count_primes(num):
+def count_primes(nums):
+    primes = []
+    for num in range(2, (nums-1)):
+        prime = True
+        for i in range(2,num):
+            if (num%i==0):
+                prime = False
+        if prime:
+            primes.append(num)
+    return len(primes)
 
 
 print('Count Primes')
