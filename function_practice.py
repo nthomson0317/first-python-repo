@@ -156,12 +156,6 @@ def summer_69(arr):
     return total
 
 
-
- 
-        
-        
-
-
 print('Summer of 69')
 print(summer_69([1,3,5]))
 print(summer_69([4,5,6,7,8,9]))
@@ -181,3 +175,4 @@ print('Spy Game')
 print(spy_game([1,2,4,0,0,7,5]))
 print(spy_game([1,0,2,4,0,5,7]))
 print(spy_game([1,7,2,0,4,5,0]))
+print(spy_game([1,8,9,0,0,2,0,4,5,0]))
