@@ -175,3 +175,20 @@ print(spy_game([1,2,4,0,0,7,5]))
 print(spy_game([1,0,2,4,0,5,7]))
 print(spy_game([1,7,2,0,4,5,0]))
 print(spy_game([1,8,9,0,0,2,0,4,5,0]))
+
+#### SPY GAME 2: WRITE A FUNCTION THAT TAKES IN A LIST OF INTEGERS AND RETURNS TRUE IF IT CONTAINS 007 IN ORDER
+
+def spy_game_2(nums):
+    code = [0,0,7,'x']
+
+    for num in nums:
+        if num == code[0]:
+            code.remove(num)
+    return len(code) == 1
+
+
+print('Spy Game 2')
+print(spy_game_2([1,2,4,0,0,7,5]))
+print(spy_game_2([1,0,2,4,0,5,7]))
+print(spy_game_2([1,7,2,0,4,5,0]))
+print(spy_game_2([1,8,9,0,0,2,0,4,5,0]))
