@@ -192,3 +192,5 @@ print(spy_game_2([1,2,4,0,0,7,5]))
 print(spy_game_2([1,0,2,4,0,5,7]))
 print(spy_game_2([1,7,2,0,4,5,0]))
 print(spy_game_2([1,8,9,0,0,2,0,4,5,0]))
+
+#### COUNT PRIMES: Write a function that returns the number of prime numbers that exist up to and including a given number
