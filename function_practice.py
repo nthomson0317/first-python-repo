@@ -124,13 +124,14 @@ print(paper_doll('Mississippi'))
 #### BLACKJACK: GIVEN THREE INTEGERS BETWEEN 1 AND 11, IF THEIR SUM IS LESS THAN OR EQUAL TO 21, RETURN THEIR SUM. IF THEIR SUM EXCEEDS 21 AND THERE'S AN 11, REDUCE THE TOTAL SUM BY 10. FINALLY, IF HTE SUM (EVEN AFTER ADJUSTMENT) EXCEEDS 21, RETURN 'BUST'
 
 def blackjack(a,b,c):
-    if (a + b + c) <= 21:
-        return (a + b + c)
-    elif (a + b + c) <= 31 and (a == 11 or b == 11 or c == 11):
-        return ((a + b + c) - 10)
+    if sum([a,b,c]) <= 21:
+        return sum([a,b,c])
+    elif sum([a, b, c]) <= 31 and 11 in [a,b,c]:
+        return (sum([a,b,c]) - 10)
     else:
         return 'BUST'
 
+print('Blackjack')
 print(blackjack(5,6,7))
 print(blackjack(9,9,9))
 print(blackjack(9,9,11))
