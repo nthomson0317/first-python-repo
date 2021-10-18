@@ -33,3 +33,22 @@ mynums = [1,2,3,4,5,6]
 
 for n in filter(check_even,mynums):
     print(n)
+
+
+
+##### LAMBDA
+
+def square(num):
+    result = num**2
+    return result
+
+square(3)
+##==> 9
+
+square = lambda num: num**2
+
+square(5) 
+#==> 25
+
+print(list(map(lambda num:num**2,mynums)))
+##==> [1, 4, 9, 16, 25, 36]
