@@ -55,3 +55,9 @@ print(list(map(lambda num:num**2,mynums)))
 
 print(list(filter(lambda num:num%2==0, mynums)))
 ##==> [2, 4, 6]
+
+print(list(map(lambda x:x[0],names)))
+##==> ['A', 'E', 'S']
+
+print(list(map(lambda x:x[::-1],names)))
+##==> ['ydnA', 'evE', 'yllaS']
