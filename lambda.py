@@ -18,3 +18,6 @@ def splicer(mystring):
 names = ['Andy', 'Eve', 'Sally']
 
 print(list(map(splicer,names)))
+
+for name in map(splicer,names):
+    print(name)
