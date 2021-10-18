@@ -52,3 +52,6 @@ square(5)
 
 print(list(map(lambda num:num**2,mynums)))
 ##==> [1, 4, 9, 16, 25, 36]
+
+print(list(filter(lambda num:num%2==0, mynums)))
+##==> [2, 4, 6]
