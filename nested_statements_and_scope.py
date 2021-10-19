@@ -49,5 +49,5 @@ def function():
     y = 200
     print(f'I JUST LOCALLY CHANGED X TO {y}')
 
-function(y)
+function()
 
