@@ -51,3 +51,17 @@ def function():
 
 function()
 
+
+#####
+
+x = 50
+
+def fun_fun_function(x):
+    print(f'X is {x}')
+
+    # LOCAL REASSIGNMENT ON A VARIABLE
+    x = 'NEW VALUE'
+    print(f'I JUST LOCALLY CHANGED GLOBAL X TO {x}')
+    return x
+
+fun_fun_function(x)
