@@ -24,7 +24,20 @@ def greet():
     def hello():
         print('Hello ' +name)
     hello()
-    
+
 greet()
+
+####
+
+x = 50
+
+def func(x):
+    print(f'X is {x}')
+
+    ## LOCAL REASSIGNMENT
+    x = 200
+    print(f'I JUST LOCALLY CHANGED X TO {x}')
+
+func(x)
 
 
