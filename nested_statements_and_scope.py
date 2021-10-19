@@ -40,4 +40,14 @@ def func(x):
 
 func(x)
 
+y = 500
+def function():
+    global y
+    print(f'Y is {y}')
+
+    # LOCAL REASSIGNMENT ON A GLOBAL VARIABLE
+    y = 200
+    print(f'I JUST LOCALLY CHANGED X TO {y}')
+
+function(y)
 
