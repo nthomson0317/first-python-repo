@@ -20,3 +20,21 @@ ran_check(99,2,7)
 ran_check(500,2,7000)
 ran_check(15,2,7)
 ran_check(55,2,70)
+
+## Write a Python function that accepts a string and calculates the number of upper case letters and lower case letters.
+
+def up_low(s):
+    up = 0
+    low = 0
+    for i in s:
+        if i.isupper():
+            up +=1
+        elif i.islower():
+            low +=1
+    print(f'No. of Upper case characters : {up}')
+    print(f'No. of Lower case characters : {low}')
+
+
+
+s = 'Hello Mr. Rogers, how are you this fine Tuesday?'
+up_low(s)
