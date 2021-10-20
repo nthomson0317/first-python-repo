@@ -11,12 +11,12 @@ print(vol(2))
 
 def ran_check(num,low,high):
     if num in range(low,high):
-            return True
+            print(f'{num} is in the range between {low} and {high}')
     else:
-            return False
+            print(f'{num} is NOT in the range between {low} and {high}')
 
-print(ran_check(5,2,7))
-print(ran_check(99,2,7))
-print(ran_check(500,2,7000))
-print(ran_check(15,2,7))
-print(ran_check(55,2,70))
+ran_check(5,2,7)
+ran_check(99,2,7)
+ran_check(500,2,7000)
+ran_check(15,2,7)
+ran_check(55,2,70)
