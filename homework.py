@@ -38,3 +38,12 @@ def up_low(s):
 
 s = 'Hello Mr. Rogers, how are you this fine Tuesday?'
 up_low(s)
+
+## Write a Python function that takes a list and returns a new list with unique elements of the first list.
+
+def unique_list(lst):
+    new_list = set(lst)
+    new_new_list = list(new_list)
+    print(new_new_list)
+
+unique_list([1,1,1,1,2,2,3,3,3,3,4,5])
