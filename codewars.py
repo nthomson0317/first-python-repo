@@ -19,7 +19,3 @@ print(rev_multidict)
 
 print(rev_multidict.values())
 
-for i in rev_multidict.values():
-    if len(i) > 3:
-        rev_multidict.pop(i[3:])
-print(rev_multidict)
